@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 50px;
+            width: 100%;
+            border: solid black 3px;
+            background-color: rgb(122, 199, 199);
+        }
+        .navlist{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-around;
+
+        }
+        .navlist li{
+            padding: 5px;
+            margin: 5px;
+            font-size: 20px;
+            list-style: none;
+            
+        }
+        .navlist li a{
+            text-decoration: none;
+            font-size: 30px;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(193, 231, 218);
+            
+        }
+ 
+        
+        .mainsection{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .rightbox{
+            height: 652px;
+            width: 50%;
+            
+
+        }
+        .rightbox:hover{
+            scale: 1.01;
+        }
+        .leftbox{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(102, 204, 170);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .leftbox ul li:hover{
+            font-size: 32px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(199, 12, 12);
+            transition: 1s;
+        }
+        .leftbox  ul li{
+            font-size:30px;
+            margin: 3px;
+            
+        }
+        .leftbox h1{
+            font-size: 50px;
+            color: rgb(177, 109, 8);
+
+        }
+        .footer ul{
+            display: flex;
+            flex-direction: row; 
+            list-style: none;
+            height: 50px;
+            width: 100%;
+            
+        }
+
+        .footer li{
+            font-size: 40px;
+            margin: 10px;
+            
+        }
+
+        .footer  li a:hover{
+
+            color: rgb(120, 90, 148);
+        
+
+        }
+        .footer li a{
+            text-decoration: none;
+            
+            color:rgb(13, 165, 185);
+  
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(145, 69, 69)
+        }
+        .contact {
+            font-size:30px;
+             display: flex;
+             flex-direction: row;
+        }
+        .marquee{
+            font-size: 30px;
+            color:rgb(4, 30, 182);
+        }
+        .navlist  li input{
+            font-size: 23px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="navbar">
+        <h1>YASH GUPTA</h1>
+              <div class="navlist">
+        <li><a href="#" target="_blank">Home</a></li>
+        <li><a href="#" target="_blank">Dashboard</a></li>
+        <li><a href="#" target="_blank">Contact</a></li>
+        <li><input type="search" autofocus
+            placeholder="              searchbar"></li>
+        
+    </div>
+    </div>
+    <div class="marquee">
+        <marquee behavior="" direction="right">This Is  About YASH</marquee>
+    </div>
+    <div class="mainsection">
+        <div class="leftbox">
+                <h1>ABOUT YASH</h1>
+                <ul>
+                    <li>yash is a good person</li>
+                <li>yash is honest man</li>
+                <li>he is a greatful</li>
+                <li>he is 12th qualified</li>
+                <li>his pet name bhaiya</li>
+                <li>yash is a skilled person</li>
+                <li>he has two sisters</li>
+                <li>he has no brother</li>
+                <li>he ia a brave man</li>
+                </ul>
+            
+
+        </div>
+        <div class="rightbox">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-blossoming-rose-flower-royalty-free-image-1580853844.jpg " alt="" height="100%" width="100%">
+    </div>
+    
+</div>
+    <footer>
+        <div class="footer">
+            <div><ul>
+                <li><a href="#" class="fab fa-instagram" target="_blank"></a></li>
+            <li><a href="#" class="fab fa-facebook" target="_blank"></a></li>
+            <li><a href="#" class="fab fa-twitter" target="_blank"></a></li>
+            <li><a href="#" class="fab fa-whatsapp" target="_blank"></a></li>
+            <li><a href="#" class="fab fa-linkedin" target="_blank"></a></li>
+            </ul>
+        </div>
+<div class="contact">
+    <h2>contact-</h2>
+      <h2>9302827112</h2>
+</div>
+        </div>
+    </footer>
+        
+        
+   
+    
+</body>
+
+</html>
